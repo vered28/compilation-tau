@@ -1,0 +1,22 @@
+package IC.Parser;
+
+import java_cup.runtime.*;
+import IC.Lexer.*;
+
+parser code  {:
+:};
+
+////////////////////////////////////////////
+// Symbol list (terminals and non-terminals)
+
+nonterminal Program;
+
+//////////////////////////
+// Precedence declarations
+
+//////////////
+// The grammar
+
+Program ::=
+      /*empty*/               {: :}
+    ;
